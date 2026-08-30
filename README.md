@@ -2,6 +2,9 @@
 
 A responsive, dark, blue/purple software-team website inspired by the supplied visual reference.
 
+You can see the website by clicking on the link below
+https://knightra-team.github.io/Knightra-website
+
 ## Included
 - English-first, bilingual English/Persian UI
 - Persian RTL support with `dir="rtl"`
