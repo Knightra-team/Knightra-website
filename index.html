@@ -1,11 +1,217 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knightra</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Knightra — three-person software team building modern digital products.">
+  <title>Knightra — Software Team</title>
+  <link rel="icon" href="assets/icon.svg">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
+
 <body>
-    Hello dude
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark"><img class="logo-img" src="assets/kn.png" alt="Knightra logo"></span><span class="brand-name">Knightra</span></a>
+      <nav class="nav-links"><a href="index.html" data-i18n="nav_home">Home</a><a href="about.html"
+          data-i18n="nav_about">About</a><a href="services.html" data-i18n="nav_services">Services</a><a
+          href="projects.html" data-i18n="nav_projects">Projects</a><a href="team.html" data-i18n="nav_team">Team</a><a
+          href="contact.html" data-i18n="nav_contact">Contact</a></nav>
+      <div class="nav-actions">
+        <div class="lang-switch"><button class="language-option" data-set-lang="en" data-lang="en">EN</button><button
+            class="language-option" data-set-lang="fa" data-lang="fa">FA</button></div><a class="btn btn-primary"
+          href="contact.html" data-i18n="cta_start">Start a project</a><button class="menu-toggle" aria-expanded="false"
+          aria-label="Menu">☰</button>
+      </div>
+    </div>
+    <div class="mobile-menu"><a href="index.html" data-i18n="nav_home">Home</a><a href="about.html"
+        data-i18n="nav_about">About</a><a href="services.html" data-i18n="nav_services">Services</a><a
+        href="projects.html" data-i18n="nav_projects">Projects</a><a href="team.html" data-i18n="nav_team">Team</a><a
+        href="contact.html" data-i18n="nav_contact">Contact</a></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="kicker" data-i18n="hero_eyebrow">Software team • Built for ambitious ideas</div>
+          <h1 data-i18n="hero_title">We turn bold ideas into <span>real software.</span></h1>
+          <p class="lead" data-i18n="hero_text">Knightra is a three-person software team focused on building clean,
+            modern and reliable digital products. The site is ready for your story, services and portfolio to grow with
+            you.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="projects.html" data-i18n="btn_explore">Explore our
+              work</a><a class="btn btn-ghost" href="team.html" data-i18n="btn_team">Meet the team</a></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-orb"></div>
+          <div class="hero-panel">
+            <div class="hero-screen">
+              <div class="screen-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+              <div class="screen-body">
+                <div class="mini-pill"></div>
+                <div class="chart"></div>
+                <div class="stat-row">
+                  <div class="stat-box"><strong>03</strong><span data-i18n="stats_team">Core members</span></div>
+                  <div class="stat-box"><strong>01</strong><span data-i18n="stats_focus">Software-first</span></div>
+                  <div class="stat-box"><strong>∞</strong><span data-i18n="stats_mode">Remote-ready</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="float-badge one"><span class="float-icon">✦</span><span>Clean UI</span></div>
+          <div class="float-badge two"><span class="float-icon">↗</span><span>Build • Test • Ship</span></div>
+        </div>
+      </div>
+      <div class="wave"></div>
+    </section>
+
+    <section class="section" style="padding-top:32px">
+      <div class="container">
+        <div class="trust-row">
+          <div class="trust-card">
+            <div class="icon">✦</div>
+            <h3 data-i18n="trust">A compact team, a complete software mindset</h3>
+            <p data-i18n="hero_text">Knightra is a three-person software team focused on building clean, modern and
+              reliable digital products.</p>
+          </div>
+          <div class="trust-card">
+            <div class="icon">⌘</div>
+            <h3 data-i18n="card_1_title">Product development</h3>
+            <p data-i18n="card_1_text">From concept to launch, with practical engineering and thoughtful UX.</p>
+          </div>
+          <div class="trust-card">
+            <div class="icon">◌</div>
+            <h3 data-i18n="card_2_title">Web applications</h3>
+            <p data-i18n="card_2_text">Responsive interfaces and maintainable back-end foundations for modern products.
+            </p>
+          </div>
+          <div class="trust-card">
+            <div class="icon">▣</div>
+            <h3 data-i18n="card_3_title">Custom software</h3>
+            <p data-i18n="card_3_text">Purpose-built tools shaped around your workflow, not the other way around.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="kicker" data-i18n="services_kicker">What we do</div>
+            <h2 data-i18n="services_title">Software that feels <span>simple</span> to use.</h2>
+          </div>
+          <p class="lead" data-i18n="services_text">Tell us the problem. We shape the right product, experience and
+            technical foundation around it.</p>
+        </div>
+        <div class="card-grid">
+          <article class="feature-card">
+            <div class="card-icon">01</div>
+            <h3 data-i18n="s1_title">Web development</h3>
+            <p data-i18n="s1_text">Responsive websites, dashboards and web applications with modern front-end and
+              back-end patterns.</p>
+          </article>
+          <article class="feature-card">
+            <div class="card-icon">02</div>
+            <h3 data-i18n="s2_title">Mobile applications</h3>
+            <p data-i18n="s2_text">Cross-platform or native experiences designed for speed, clarity and real-world use.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="card-icon">03</div>
+            <h3 data-i18n="s3_title">UI / UX</h3>
+            <p data-i18n="s3_text">Interfaces that reduce friction and make complex software easier to use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="center">
+          <div class="kicker" data-i18n="process_kicker">Our approach</div>
+          <h2 data-i18n="process_title">Clear from first idea to final release</h2>
+        </div>
+        <div class="process-grid" style="margin-top:42px">
+          <div class="process-step">
+            <div class="process-number">01</div>
+            <h3 data-i18n="p1_title">Discover</h3>
+            <p data-i18n="p1_text">We understand the goal, users, constraints and the real problem worth solving.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">02</div>
+            <h3 data-i18n="p2_title">Design</h3>
+            <p data-i18n="p2_text">We turn the idea into a clean interface and a focused product direction.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">03</div>
+            <h3 data-i18n="p3_title">Build</h3>
+            <p data-i18n="p3_text">We develop, test and refine the software with maintainability in mind.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">04</div>
+            <h3 data-i18n="p4_title">Launch</h3>
+            <p data-i18n="p4_text">We prepare the product for release and leave you with a solid foundation for the next
+              version.</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="big-stat"><strong>3</strong><span data-i18n="stats_team">Core members</span></div>
+          <div class="big-stat"><strong>100%</strong><span data-i18n="stats_focus">Software-first</span></div>
+          <div class="big-stat"><strong>1</strong><span data-i18n="stats_mode">Remote-ready</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="kicker" data-i18n="projects_kicker">Selected work</div>
+            <h2 data-i18n="projects_title">A portfolio section ready for <span>your projects.</span></h2>
+          </div>
+          <p class="lead" data-i18n="projects_text">Project details can be replaced later with screenshots, links,
+            technology stacks and outcomes.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art"></div>
+            <div class="project-meta"><span>01</span><span data-i18n="project_status">Case study placeholder</span>
+            </div>
+            <h3 data-i18n="proj1_title">Project Nova</h3>
+            <p data-i18n="proj1_text">Placeholder case study for a modern web product.</p><a class="btn btn-ghost"
+              href="projects.html" data-i18n="view_project">View project</a>
+          </article>
+          <article class="project-card">
+            <div class="project-art"></div>
+            <div class="project-meta"><span>02</span><span data-i18n="project_status">Case study placeholder</span>
+            </div>
+            <h3 data-i18n="proj2_title">Project Orbit</h3>
+            <p data-i18n="proj2_text">Placeholder case study for a custom software platform.</p><a class="btn btn-ghost"
+              href="projects.html" data-i18n="view_project">View project</a>
+          </article>
+          <article class="project-card">
+            <div class="project-art"></div>
+            <div class="project-meta"><span>03</span><span data-i18n="project_status">Case study placeholder</span>
+            </div>
+            <h3 data-i18n="proj3_title">Project Forge</h3>
+            <p data-i18n="proj3_text">Placeholder case study for a mobile or cross-platform product.</p><a
+              class="btn btn-ghost" href="projects.html" data-i18n="view_project">View project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p data-i18n="footer_text">Knightra — Built Different.</p>
+      <div class="footer-links"><a href="about.html" data-i18n="nav_about">About</a><a href="services.html"
+          data-i18n="nav_services">Services</a><a href="contact.html" data-i18n="nav_contact">Contact</a><span>© <span
+            data-year>2026</span> Knightra</span></div>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
 </body>
+
 </html>
